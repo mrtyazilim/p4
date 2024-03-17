@@ -13,13 +13,14 @@ public class UfaktefekKodDenemeleri {
         //today.atTime()
 
         oku1();
-        https://we.tl/t-9ZNzQ5tGeM
-        https://we.tl/t-cLqBdNArQJ
+        //https://we.tl/t-9ZNzQ5tGeM
+        //https://we.tl/t-cLqBdNArQJ
     }
 
     private static void oku1() {
         File userFile=new File(DOMAIN_CONSTANT.OBJECTDATAPATH);
-        userFile.toURI();
+        userFile.
+                toURI();
         Scanner fileScanner;
         String satir="";// "" KOYMAYA MECBUR KALdık. bilgi eksiğim mi var ki böyle aveni yoöntem kullandım?
         try {
