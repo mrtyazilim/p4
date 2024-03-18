@@ -12,9 +12,15 @@ git git hub öğrenilmeli
 
 */
 public class User {
-    String username,password,name,surname;
-    char[] tckn=new char[11];
+    public String username,password,name,surname;
+    //public char[] tckn= {'1','1','2','2','3','4','4','5','5','5','5'};
+    public char[] tckn=new char[11];
     // burası belki de string olmalı
+
+
     enum gender {        Kadin,        Erkek    };
+
+
+
 
 }
