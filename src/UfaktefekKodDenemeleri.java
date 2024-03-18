@@ -6,6 +6,7 @@ import java.io.*;
 import java.time.Clock;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Arrays;
 import java.util.Scanner;
 public class UfaktefekKodDenemeleri {
     public static void main(String[] args) {
@@ -34,6 +35,7 @@ public class UfaktefekKodDenemeleri {
         user.tckn[6]='2';user.tckn[7]='2';user.tckn[8]='2';    user.tckn[9]='3';user.tckn[10]='3';
         try {
             String metin=user.tckn.toString();
+            metin=Arrays.toString(user.tckn);
             PrintWriter transactionPrintWriter=new PrintWriter(DOMAIN_CONSTANT.TRANSACTION_DATAPATH+metin+".txt");
 
         }catch (Exception e)         // (IOException ioException)
@@ -218,4 +220,4 @@ public class StudentList {
 
 
 
-}
+ }

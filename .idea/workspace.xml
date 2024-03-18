@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="commint and push">
-      <change afterPath="$PROJECT_DIR$/src/Veri/Olaylar/aa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veri/Olaylar/haamm.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/Ertelenen işler-iyileştirmeler.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/Ertelenen işler-iyileştirmeler.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
@@ -60,7 +58,7 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UfaktefekKodDenemeleri">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled" />
@@ -146,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710672225682</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commint and push">
+      <option name="closed" value="true" />
+      <created>1710735268563</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710735268563</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +166,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="idedeNewBranch" />
+                        <option value="idedeNewBranch3" />
                       </list>
                     </value>
                   </entry>
@@ -189,12 +195,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>38</line>
+          <line>40</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

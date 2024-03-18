@@ -16,9 +16,11 @@ public class User {
     //public char[] tckn= {'1','1','2','2','3','4','4','5','5','5','5'};
     public char[] tckn=new char[11];
     // burası belki de string olmalı
-
+    //tarih saat ekle
+    //zorunlu alanarı nasıl yapmalıyım
 
     enum gender {        Kadin,        Erkek    };
+
 
 
 
