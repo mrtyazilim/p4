@@ -112,7 +112,7 @@ public class StudentList {
 
         scanner.close();
     }
-
+//
     private static String selectStudent(String[] studentList, String[] selectedStudents) {
         Random random = new Random();
         String selectedStudent;
