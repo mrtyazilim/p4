@@ -3,8 +3,6 @@ package VarliksalSiniflar;
 /**
  @author Murat Değirmenci,UPoDer
  
-
-
  */
 
 /*
