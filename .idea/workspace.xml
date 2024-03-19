@@ -41,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.UfaktefekKodDenemeleri.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "idedeNewBranch4Masterdan",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/media/patriotlubuntu22kur/m2m2nWinb2/upod-masaüstü/Mezuniyet1/Karavana1/M1K1Proje1/untitled/src/Main.java",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.UfaktefekKodDenemeleri.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;idedeNewBranch4Masterdan&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/media/patriotlubuntu22kur/m2m2nWinb2/upod-masaüstü/Mezuniyet1/Karavana1/M1K1Proje1/untitled/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.UfaktefekKodDenemeleri">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -164,10 +164,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710744226103</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commint and push">
+      <option name="closed" value="true" />
+      <created>1710749309444</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710749309444</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commint and push">
+      <option name="closed" value="true" />
+      <created>1710787523921</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710787523921</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commint and push">
+      <option name="closed" value="true" />
+      <created>1710826625026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710826625026</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="e67361e5-dd57-4170-9886-fd6a19962d0a" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -185,6 +214,11 @@
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+        <entry key="e67361e5-dd57-4170-9886-fd6a19962d0a">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
