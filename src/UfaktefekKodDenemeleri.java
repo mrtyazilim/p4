@@ -48,7 +48,7 @@ public class UfaktefekKodDenemeleri {
         LocalDate today = LocalDate.now();
         System.out.println(today);
         //LocalTime localTime=new LocalTime();
-        LocalTime now = LocalTime.now();
+        LocalTime now = LocalTime.now();;
 
         System.out.println(LocalTime.now());
         //today.atTime()
