@@ -1,9 +1,8 @@
 package VarliksalSiniflar;
 
 /**
- @author Murat
-
-
+ @author Murat Değirmenci,UPoDer
+ 
  */
 
 /*
