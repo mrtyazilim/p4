@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="dosya gezginiyle dosya yeri değiştirildi">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/Ertelenen işler-iyileştirmeler.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/Ertelenen işler-iyileştirmeler.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/bu klasör hakkında.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/bu klasör hakkında.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/istekleri anlamayla ilgili.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/istekleri anlamayla ilgili.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/java ile ilgili sorular.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/java ile ilgili sorular.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeriDonusumKutusu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInterface1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeriDonusumKutusu/UserInterface1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VarliksalSiniflar/UserV_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VarliksalSiniflar/UserV_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veri/Olaylar/12345678901.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/Olaylar/12345678901.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.UfaktefekKodDenemeleri.executor": "Run",
+    "Application.Use.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +64,7 @@
       <recent name="$PROJECT_DIR$/Dış soru, not, UML" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UfaktefekKodDenemeleri">
+  <component name="RunManager" selected="Application.Use">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GeriDonusumKutusu.Main" />
       <module name="untitled" />
@@ -80,8 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Use" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Use" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Use" />
         <item itemvalue="Application.UfaktefekKodDenemeleri" />
         <item itemvalue="Application.Main" />
       </list>
@@ -231,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711001117093</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce">
+      <option name="closed" value="true" />
+      <created>1711003183891</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711003183891</updated>
+    </task>
+    <task id="LOCAL-00018" summary="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce">
+      <option name="closed" value="true" />
+      <created>1711003210547</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711003210547</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +305,8 @@
     <MESSAGE value="github üzerinde kodlamadan sonra yereldeki 2       commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece" />
     <MESSAGE value="java doc denemesi yapıldı" />
     <MESSAGE value="dosya gezginiyle dosya yeri değiştirildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="dosya gezginiyle dosya yeri değiştirildi" />
+    <MESSAGE value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
+    <option name="LAST_COMMIT_MESSAGE" value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
