@@ -15,8 +15,7 @@ public class UfaktefekKodDenemeleri {
         veriEkleDene();
         dosyaOlustur();
         dosyaVarMi();
-        //https://we.tl/t-9ZNzQ5tGeM
-        //https://we.tl/t-cLqBdNArQJ
+
     }
 
     private static void dosyaVarMi() {

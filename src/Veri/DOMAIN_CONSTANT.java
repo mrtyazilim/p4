@@ -1,5 +1,9 @@
 package Veri;
+/**
 
+@apiNote  Proje içindedeki klasörlerin Linux OS de çalştığı bilinen yolları burada.
+
+*/
 public class DOMAIN_CONSTANT {
    // public static final String OBJECTDATAPATH="Veri/Nesne/denememetin.txt";
     public static final String USERDATAPATH="src/Veri/Nesne/denememetin";
