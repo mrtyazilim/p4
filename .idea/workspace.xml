@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="commint and push">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="dosya gezginiyle dosya yeri değiştirildi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/Ertelenen işler-iyileştirmeler.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/Ertelenen işler-iyileştirmeler.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/bu klasör hakkında.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/bu klasör hakkında.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/java ile ilgili sorular.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/java ile ilgili sorular.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeriDonusumKutusu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeriDonusumKutusu/UserInterface1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VarliksalSiniflar/UserV_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VarliksalSiniflar/UserV_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,22 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.UfaktefekKodDenemeleri.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;idedeNewBranch4Masterdan&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/media/patriotlubuntu22kur/m2m2nWinb2/upod-masaüstü/Mezuniyet1/Karavana1/M1K1Proje1/untitled/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.UfaktefekKodDenemeleri.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "Taslak2IdedeBranch",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/media/patriotlubuntu22kur/m2m2nWinb2/upod-masaüstü/Mezuniyet1/Karavana1/M1K1Proje1/untitled/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dış soru, not, UML" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.UfaktefekKodDenemeleri">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="GeriDonusumKutusu.Main" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,7 +199,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710826625026</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="github üzerinde kodlamadan sonra yereldeki ilk commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece">
+      <option name="closed" value="true" />
+      <created>1710918667074</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710918667074</updated>
+    </task>
+    <task id="LOCAL-00014" summary="github üzerinde kodlamadan sonra yereldeki 2       commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece">
+      <option name="closed" value="true" />
+      <created>1710920126058</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710920126058</updated>
+    </task>
+    <task id="LOCAL-00015" summary="java doc denemesi yapıldı">
+      <option name="closed" value="true" />
+      <created>1710999950748</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710999950748</updated>
+    </task>
+    <task id="LOCAL-00016" summary="dosya gezginiyle dosya yeri değiştirildi">
+      <option name="closed" value="true" />
+      <created>1711001117093</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711001117093</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +250,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="idedeNewBranch3" />
+                        <option value="origin/idedeNewBranch3" />
                       </list>
                     </value>
                   </entry>
@@ -218,7 +261,13 @@
         </entry>
         <entry key="e67361e5-dd57-4170-9886-fd6a19962d0a">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -229,24 +278,28 @@
     <MESSAGE value="oku1 wet //" />
     <MESSAGE value="txt ye veri ekleme deemesi oldu" />
     <MESSAGE value="commint and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="commint and push" />
+    <MESSAGE value="github üzerinde kodlamadan sonra yereldeki ilk commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece" />
+    <MESSAGE value="github üzerinde kodlamadan sonra yereldeki 2       commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece" />
+    <MESSAGE value="java doc denemesi yapıldı" />
+    <MESSAGE value="dosya gezginiyle dosya yeri değiştirildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="dosya gezginiyle dosya yeri değiştirildi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/GeriDonusumKutusu/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>38</line>
+          <line>37</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>40</line>
+          <line>39</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

@@ -1,15 +1,20 @@
+/*
 package VarliksalSiniflar;
 
+*/
 /**
  @author Murat Değirmenci,UPoDer
  
- */
+ *//*
 
+
+*/
 /*
 1.get , set, üye değişken tanımlamaları için ide destekleri öğrenilmeli
 git git hub öğrenilmeli
 
-*/
+*//*
+
 public class UserV_2 {
     private String username,password,name,surname;
     //public char[] tckn= {'1','1','2','2','3','4','4','5','5','5','5'};
@@ -28,7 +33,7 @@ public class UserV_2 {
         this.password=password;
         this.tckn=tckn;
         //burası özel ilgi istiyaor
-        this.name;
+        //this.name;
 
 
     }
@@ -39,3 +44,4 @@ public void setDateTime(){
 
 
 }
+*/
