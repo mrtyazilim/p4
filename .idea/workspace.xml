@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="ilk seçim soruldu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IstisnaHataSiniflari/FormInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IstisnaHataSiniflari/FormInputException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VarliksalSiniflar/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VarliksalSiniflar/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/iletişim metinleri.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/iletişim metinleri.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/java ile ilgili sorular.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/java ile ilgili sorular.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <recent name="$PROJECT_DIR$/Dış soru, not, UML" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GeriDonusumKutusu.Main" />
       <module name="untitled" />
