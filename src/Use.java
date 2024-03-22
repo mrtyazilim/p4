@@ -33,6 +33,7 @@ public class Use {
 
 
     }/*
+
     private static void oku1() {
         File userFile=new File(DOMAIN_CONSTANT.USERDATAPATH);//burası iyileşek .gerek olmayan bilir referans tipe
         userFile.
