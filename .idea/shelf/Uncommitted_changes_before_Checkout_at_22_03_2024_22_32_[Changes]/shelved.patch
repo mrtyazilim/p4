@@ -1,0 +1,19 @@
+Index: src/Use.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Veri.DOMAIN_CONSTANT;\n\nimport java.io.File;\nimport java.io.FileNotFoundException;\nimport java.io.IOException;\nimport java.util.Scanner;\n\npublic class Use {\n   static Scanner choiceScanner=new Scanner(System.in);\n    static char choice;\n    public static void main(String[] args) {\n        ShowEntrance();\n        choice=choiceScanner.nextLine().charAt(0);\n\n    }\n\n    static void ShowEntrance(){\n        System.out.println(\"Hoşgeldiniz. \\n Lütfen rakamlar yardımıyla seçiminizi yapınız.\");\n        System.out.println(\"1 :Üye oturum girişi.\\n2 :Üye ol. \");\n    }\n    static void userLogin(){///Ask\n        //static boolean userLogin(){///Ask\n\n        //bu metod soru soru çağrıldığı yere\n\n        String userName,password;\n        Scanner scanner=new Scanner(System.in);\n        System.out.println(\"Kullanıcı adı :\");\n        userName=scanner.nextLine();\n        System.out.println(\"Parola :\");\n        password=scanner.nextLine();\n\n\n\n    }/*\n\n    private static void oku1() {\n        File userFile=new File(DOMAIN_CONSTANT.USERDATAPATH);//burası iyileşek .gerek olmayan bilir referans tipe\n        userFile.\n                toURI();\n        Scanner fileScanner;\n        String satir=\"\";// \"\" KOYMAYA MECBUR KALdık. bilgi eksiğim mi var ki böyle aveni yoöntem kullandım?\n        try {\n            fileScanner = new Scanner(userFile);\n            satir=fileScanner.nextLine();satir=fileScanner.nextLine();\n        } catch (FileNotFoundException fileNotFoundException){\n            //fileNotFoundException.\n            System.out.println(\"Dosya bulunamadı.\");\n            //System.out.println(fileNotFoundException);\n            fileNotFoundException.printStackTrace();\n        } catch (IOException ioException) {\n            System.out.println(\"Dosyaya ulaşmada sorun oldu veya dosya yok.\");\n        }\n        //System.out.println(fileScanner.nextLine());\n        System.out.println(satir);\n    }*/\n\n//    static void askUserInfo(){\n//\n//\n//    }\n//\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Use.java b/src/Use.java
+--- a/src/Use.java	
++++ b/src/Use.java	
+@@ -33,7 +33,7 @@
+ 
+ 
+     }/*
+-
++//vma
+     private static void oku1() {
+         File userFile=new File(DOMAIN_CONSTANT.USERDATAPATH);//burası iyileşek .gerek olmayan bilir referans tipe
+         userFile.
