@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="ShowEntrance();">
-      <change afterPath="$PROJECT_DIR$/src/Veri/Nesne/User.txt" afterDir="false" />
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="metin belgleri kapatıp açıldı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeriDonusumKutusu/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeriDonusumKutusu/UserInterface1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +259,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711006609585</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="hata iletişim metni1, geridönüşüm kutusu, User.txt ve yolu">
+      <option name="closed" value="true" />
+      <created>1711087550769</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711087550769</updated>
+    </task>
+    <task id="LOCAL-00021" summary="metin belgleri kapatıp açıldı">
+      <option name="closed" value="true" />
+      <created>1711087998417</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711087998417</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +343,9 @@
     <MESSAGE value="dosya gezginiyle dosya yeri değiştirildi" />
     <MESSAGE value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
     <MESSAGE value="ShowEntrance();" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShowEntrance();" />
+    <MESSAGE value="hata iletişim metni1, geridönüşüm kutusu, User.txt ve yolu" />
+    <MESSAGE value="metin belgleri kapatıp açıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="metin belgleri kapatıp açıldı" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
