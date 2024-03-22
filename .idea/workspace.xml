@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="metin belgleri kapatıp açıldı">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="ilk seçim soruldu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IstisnaHataSiniflari/FormInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IstisnaHataSiniflari/FormInputException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VarliksalSiniflar/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VarliksalSiniflar/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <recent name="$PROJECT_DIR$/Dış soru, not, UML" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Use">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GeriDonusumKutusu.Main" />
       <module name="untitled" />
@@ -275,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711087998417</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ilk seçim soruldu">
+      <option name="closed" value="true" />
+      <created>1711090169564</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711090169564</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,7 +356,8 @@
     <MESSAGE value="ShowEntrance();" />
     <MESSAGE value="hata iletişim metni1, geridönüşüm kutusu, User.txt ve yolu" />
     <MESSAGE value="metin belgleri kapatıp açıldı" />
-    <option name="LAST_COMMIT_MESSAGE" value="metin belgleri kapatıp açıldı" />
+    <MESSAGE value="ilk seçim soruldu" />
+    <option name="LAST_COMMIT_MESSAGE" value="ilk seçim soruldu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -364,6 +376,11 @@
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
           <line>40</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Use.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

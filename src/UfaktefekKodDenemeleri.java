@@ -197,7 +197,7 @@ public class StudentList {
 
 
     private static void oku1() {
-        File userFile=new File(DOMAIN_CONSTANT.USERDATAPATH);//burası iyileşek .gerek olmayan bilir referans tipe
+        File userFile=new File(DOMAIN_CONSTANT.USERDATAPATH2);//burası iyileşek .gerek olmayan bilir referans tipe
         userFile.
                 toURI();
         Scanner fileScanner;

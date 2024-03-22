@@ -17,6 +17,7 @@ public class User {
     // burası belki de string olmalı
     //tarih saat ekle
     //zorunlu alanarı nasıl yapmalıyım
+    long balance;//bakiye
 
     enum gender {        Kadin,        Erkek    };
 
