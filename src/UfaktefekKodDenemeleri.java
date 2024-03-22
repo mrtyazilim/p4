@@ -3,7 +3,7 @@ import VarliksalSiniflar.User;
 import Veri.DOMAIN_CONSTANT;
 
 import java.io.*;
-import java.time.Clock;
+//import java.time.Clock;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Arrays;
@@ -28,7 +28,8 @@ public class UfaktefekKodDenemeleri {
 //        User user1=new User(){ };
 //        user.name="Akın";
 
-        //user.tckn={'1','0','2','3','4','5','6','7','8','9','1','9','4','4','4','4','4','4',};
+        //user.tckn={'1','0','2','3','4','5','6','7','8','9','1','9','4','4','4','4','4','4',exit
+        // rtrtrr};
         //user.tckn={'1','2','3','4','5','6','7','8','9','0','1'};
         user.tckn[0]='0';user.tckn[1]='0';user.tckn[2]='0';    user.tckn[3]='1';user.tckn[4]='1';user.tckn[5]='1';
         user.tckn[6]='2';user.tckn[7]='2';user.tckn[8]='2';    user.tckn[9]='3';user.tckn[10]='3';
@@ -47,7 +48,7 @@ public class UfaktefekKodDenemeleri {
         LocalDate today = LocalDate.now();
         System.out.println(today);
         //LocalTime localTime=new LocalTime();
-        LocalTime now = LocalTime.now();;
+        LocalTime now = LocalTime.now();
 
         System.out.println(LocalTime.now());
         //today.atTime()

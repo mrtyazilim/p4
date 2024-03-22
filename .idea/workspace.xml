@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="ShowEntrance();">
+      <change afterPath="$PROJECT_DIR$/src/Veri/Nesne/User.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/istekleri anlamayla ilgili.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/istekleri anlamayla ilgili.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/java ile ilgili sorular.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/java ile ilgili sorular.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Veri/Olaylar/12345678901.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/Olaylar/12345678901.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeriDonusumKutusu/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeriDonusumKutusu/UserInterface1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.UfaktefekKodDenemeleri.executor": "Run",
-    "Application.Use.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "Taslak2IdedeBranch",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/media/patriotlubuntu22kur/m2m2nWinb2/upod-masaüstü/Mezuniyet1/Karavana1/M1K1Proje1/untitled/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.UfaktefekKodDenemeleri.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Use.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Taslak2IdedeBranch&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/media/patriotlubuntu22kur/m2m2nWinb2/upod-masaüstü/Mezuniyet1/Karavana1/M1K1Proje1/untitled/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dış soru, not, UML" />
@@ -254,13 +255,36 @@
       <option name="project" value="LOCAL" />
       <updated>1711003210547</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ShowEntrance();">
+      <option name="closed" value="true" />
+      <created>1711006609585</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711006609585</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="e67361e5-dd57-4170-9886-fd6a19962d0a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="idedeNewBranch3" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="TAB_STATES">
@@ -273,7 +297,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/idedeNewBranch3" />
+                        <option value="origin/idedeNewBranch4Masterdan" />
                       </list>
                     </value>
                   </entry>
@@ -306,7 +330,8 @@
     <MESSAGE value="java doc denemesi yapıldı" />
     <MESSAGE value="dosya gezginiyle dosya yeri değiştirildi" />
     <MESSAGE value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
-    <option name="LAST_COMMIT_MESSAGE" value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
+    <MESSAGE value="ShowEntrance();" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShowEntrance();" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,12 +343,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>39</line>
+          <line>40</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
