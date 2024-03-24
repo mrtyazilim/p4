@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="UserInterface boş olraak geldi">
-      <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VarliksalSiniflar/UserV_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/GeriDonusumKutusu/UserV_2.java" afterDir="false" />
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="transaction service">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFileProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFileProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +61,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="Veri" />
       <recent name="" />
+      <recent name="Veri" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dış soru, not, UML/GeriDonusumKutusu" />
@@ -431,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711313291664</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="klasöür yapısı değiştirilmeden önce&#10;vverisel ve servisesel diye">
+      <created>1711313924891</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1711313924891</updated>
+    </task>
+    <task id="LOCAL-00044" summary="transaction service">
+      <created>1711314083399</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1711314083399</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,8 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="github üzerinde kodlamadan sonra yereldeki ilk commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece" />
-    <MESSAGE value="github üzerinde kodlamadan sonra yereldeki 2       commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece" />
     <MESSAGE value="java doc denemesi yapıldı" />
     <MESSAGE value="dosya gezginiyle dosya yeri değiştirildi" />
     <MESSAGE value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
@@ -514,7 +528,9 @@
     <MESSAGE value="ilk switch, ama menu" />
     <MESSAGE value="login ilk kodları" />
     <MESSAGE value="UserInterface boş olraak geldi" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserInterface boş olraak geldi" />
+    <MESSAGE value="klasöür yapısı değiştirilmeden önce&#10;vverisel ve servisesel diye" />
+    <MESSAGE value="transaction service" />
+    <option name="LAST_COMMIT_MESSAGE" value="transaction service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,12 +542,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>45</line>
+          <line>46</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -541,32 +557,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>282</line>
+          <line>283</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>287</line>
+          <line>288</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>288</line>
+          <line>289</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>289</line>
+          <line>290</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>290</line>
+          <line>291</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>291</line>
+          <line>292</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
