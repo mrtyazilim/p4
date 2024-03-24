@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="ilk switch, ama menu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="login ilk kodları">
+      <change afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -416,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711312770853</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="login ilk kodları">
+      <created>1711313021732</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1711313021732</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,7 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="txt ye veri ekleme deemesi oldu" />
     <MESSAGE value="commint and push" />
     <MESSAGE value="github üzerinde kodlamadan sonra yereldeki ilk commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece" />
     <MESSAGE value="github üzerinde kodlamadan sonra yereldeki 2       commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece" />
@@ -499,7 +504,8 @@
     <MESSAGE value="." />
     <MESSAGE value="ilk switch" />
     <MESSAGE value="ilk switch, ama menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="ilk switch, ama menu" />
+    <MESSAGE value="login ilk kodları" />
+    <option name="LAST_COMMIT_MESSAGE" value="login ilk kodları" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
