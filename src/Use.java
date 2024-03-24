@@ -13,7 +13,7 @@ public class Use implements Dataable {
         choice=choiceScanner.nextInt();
         switch (choice){
             case 1 -> {
-
+                userLogin();
             }
             case 2->{
                 userSingUp();
@@ -36,9 +36,9 @@ public class Use implements Dataable {
 
         String userName,password;
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Kullanıcı adı :");
+        System.out.print("Kullanıcı adı :");
         userName=scanner.nextLine();
-        System.out.println("Parola :");
+        System.out.print("Parola :");
         password=scanner.nextLine();
     }
 

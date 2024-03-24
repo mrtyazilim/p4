@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="transactionDate">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="ilk switch, ama menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VarliksalSiniflar/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VarliksalSiniflar/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="$PROJECT_DIR$/Dış soru, not, UML" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UfaktefekKodDenemeleri">
+  <component name="RunManager" selected="Application.Use">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GeriDonusumKutusu.Main" />
       <module name="untitled" />
@@ -91,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UfaktefekKodDenemeleri" />
         <item itemvalue="Application.Use" />
+        <item itemvalue="Application.UfaktefekKodDenemeleri" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.UfaktefekKodDenemeleri" />
         <item itemvalue="Application.Use" />
@@ -396,7 +395,28 @@
       <option name="project" value="LOCAL" />
       <updated>1711308363348</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary=".">
+      <created>1711310972598</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1711310972598</updated>
+    </task>
+    <task id="LOCAL-00039" summary="ilk switch">
+      <created>1711311979899</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1711311979899</updated>
+    </task>
+    <task id="LOCAL-00040" summary="ilk switch, ama menu">
+      <created>1711312770853</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1711312770853</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -454,8 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="oku1 wet" />
-    <MESSAGE value="oku1 wet //" />
     <MESSAGE value="txt ye veri ekleme deemesi oldu" />
     <MESSAGE value="commint and push" />
     <MESSAGE value="github üzerinde kodlamadan sonra yereldeki ilk commit push-oluşturulan dosyayı çekemedik -soru klasörün sadece" />
@@ -478,7 +496,10 @@
     <MESSAGE value="dataproces java addData,&#10;interface için over loaded metod iterface (imza) tanımlandı." />
     <MESSAGE value="dataproces java addData,&#10;return" />
     <MESSAGE value="transactionDate" />
-    <option name="LAST_COMMIT_MESSAGE" value="transactionDate" />
+    <MESSAGE value="." />
+    <MESSAGE value="ilk switch" />
+    <MESSAGE value="ilk switch, ama menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="ilk switch, ama menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -500,7 +521,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Use.java</url>
-          <line>30</line>
+          <line>44</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
