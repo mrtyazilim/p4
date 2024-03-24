@@ -28,4 +28,6 @@ public class DataFileProcess {
 
 
     }
+    public static void addData(String pathAndFileName, Dataable dataable){}
+
 }
