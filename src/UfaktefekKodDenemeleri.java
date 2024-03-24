@@ -245,6 +245,9 @@ public class StudentList {
             e.printStackTrace();
             System.out.println(DOMAIN_CONSTANT.UNKNOWN_EXCEPTION_MESSAGE);
         }
+
+        //buray akoruma bkodu gelmeli. | tanbelli bir sayıda varsa bu data dır.
+
         System.out.println(satir);
 
 
