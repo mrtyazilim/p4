@@ -14,6 +14,7 @@ public class Use implements Dataable {
 
     }
 
+
     static void ShowEntrance(){
         System.out.println("Hoşgeldiniz. \n Lütfen rakamlar yardımıyla seçiminizi yapınız.");
         System.out.println("1 :Üye oturum girişi.\n2 :Üye ol. ");
