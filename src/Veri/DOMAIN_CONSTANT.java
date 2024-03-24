@@ -24,7 +24,7 @@ public  class DOMAIN_CONSTANT {
     public final static String UNKNOWN_EXCEPTION_MESSAGE="Anlamlandırılamayan bir hata oluştu.";
     public final static String IOEXCEPTION_MESSAGE="Dosyaya ulaşmada sorun oldu veya dosya yok.";
     public final static String FILE_NOT_FOUND_MESSAGE="Dosya bulunamadı.";
-
+    ;
 
 
 
