@@ -1,14 +1,7 @@
-package VarliksalSiniflar;
+package VeriselTipler;
 
 //import Veri.Dataable;
 
-
-import Veri.DOMAIN_CONSTANT;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Scanner;
 
 /**
  @author Murat Değirmenci,UPoDer
