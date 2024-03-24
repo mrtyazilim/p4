@@ -1,5 +1,4 @@
 import Veri.DOMAIN_CONSTANT;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -11,12 +10,7 @@ public class Use implements Dataable {
     public static void main(String[] args) {
         ShowEntrance();
         choice=choiceScanner.nextLine().charAt(0);
-
     }
-
-
-
-
 
     static void ShowEntrance(){
         System.out.println("Hoşgeldiniz. \n Lütfen rakamlar yardımıyla seçiminizi yapınız.");
@@ -24,7 +18,6 @@ public class Use implements Dataable {
     }
     static void userLogin(){///Ask
         //static boolean userLogin(){///Ask
-
         //bu metod soru soru çağrıldığı yere
 
         String userName,password;
@@ -33,31 +26,7 @@ public class Use implements Dataable {
         userName=scanner.nextLine();
         System.out.println("Parola :");
         password=scanner.nextLine();
-
-
-
-    }/*
-
-    private static void oku1() {
-        File userFile=new File(DOMAIN_CONSTANT.USERDATAPATH);//burası iyileşek .gerek olmayan bilir referans tipe
-        userFile.
-                toURI();
-        Scanner fileScanner;
-        String satir="";// "" KOYMAYA MECBUR KALdık. bilgi eksiğim mi var ki böyle aveni yoöntem kullandım?
-        try {
-            fileScanner = new Scanner(userFile);
-            satir=fileScanner.nextLine();satir=fileScanner.nextLine();
-        } catch (FileNotFoundException fileNotFoundException){
-            //fileNotFoundException.
-            System.out.println("Dosya bulunamadı.");
-            //System.out.println(fileNotFoundException);
-            fileNotFoundException.printStackTrace();
-        } catch (IOException ioException) {
-            System.out.println("Dosyaya ulaşmada sorun oldu veya dosya yok.");
-        }
-        //System.out.println(fileScanner.nextLine());
-        System.out.println(satir);
-    }*/
+    }
 
 //    static void askUserInfo(){
 //
