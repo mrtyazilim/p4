@@ -13,8 +13,10 @@ import java.util.Scanner;
 
 
 public class UfaktefekKodDenemeleri {
+/*
     private static void dosyaVarMi() {
     }
+*/
 
     private static void dosyaOlustur() {
         User user = new User();
@@ -203,8 +205,7 @@ public class StudentList {
 
     private static void oku1() {
         File userFile = new File(DOMAIN_CONSTANT.USERDATAPATH2);//burası iyileşek .gerek olmayan bilir referans tipe
-        userFile.
-                toURI();
+        //userFile.                toURI();
         Scanner fileScanner;
         String satir = "";// "" KOYMAYA MECBUR KALdık. bilgi eksiğim mi var ki böyle aveni yoöntem kullandım?
         try {
