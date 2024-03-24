@@ -3,12 +3,14 @@
 import VarliksalSiniflar.User;
 import Veri.DOMAIN_CONSTANT;
 
+
 import java.io.*;
 //import java.time.Clock;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.Scanner;
+
 
 public class UfaktefekKodDenemeleri {
 
@@ -66,7 +68,7 @@ public class UfaktefekKodDenemeleri {
         try {
             FileWriter transactionfileWriter = new FileWriter(DOMAIN_CONSTANT.TRANSACTION_DATAPATH + "12345678901.txt", true);
             transactionfileWriter.write(System.lineSeparator());
-            transactionfileWriter.write("ilk");
+            transactionfileWriter.write(LocalTime.now().toString());
 
             transactionfileWriter.close();
 
@@ -264,7 +266,6 @@ public class StudentList {
 
         System.out.println(satir);
 
-
         String recordedUserName, recordedPassword;
         int pipe = satir.indexOf('|');
         recordedUserName = satir.substring(0, pipe);
@@ -350,7 +351,7 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
     public static void main(String[] args) {
 //        zamani();
 //        oku1();
-//        veriEkleDene();
+        veriEkleDene();
 //        dosyaOlustur();
 //        dosyaVarMi();
         //tekKullaniciOku();

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="readTransactionFFileByTC">
-      <change afterPath="$PROJECT_DIR$/Dış soru, not, UML/pairden kod/StudentList_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veri/Olaylar/11111111111.txt" afterDir="false" />
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="dataproces javayı doldurmaya başlayalım">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFileProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dataable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dataable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veri/Olaylar/12345678901.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +342,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711288282239</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="readTransactionFFileByTC temek okuma yapıldı">
+      <created>1711293008096</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711293008096</updated>
+    </task>
+    <task id="LOCAL-00031" summary="dataproces javayı doldurmaya başlayalım">
+      <created>1711298363669</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711298363669</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -416,7 +431,9 @@
     <MESSAGE value="ilk push 4 e" />
     <MESSAGE value="| meselesi önemli" />
     <MESSAGE value="readTransactionFFileByTC" />
-    <option name="LAST_COMMIT_MESSAGE" value="readTransactionFFileByTC" />
+    <MESSAGE value="readTransactionFFileByTC temek okuma yapıldı" />
+    <MESSAGE value="dataproces javayı doldurmaya başlayalım" />
+    <option name="LAST_COMMIT_MESSAGE" value="dataproces javayı doldurmaya başlayalım" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -428,12 +445,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>41</line>
+          <line>43</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>43</line>
+          <line>45</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -443,32 +460,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>276</line>
+          <line>277</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>281</line>
+          <line>282</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>282</line>
+          <line>283</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>283</line>
+          <line>284</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>284</line>
+          <line>285</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>285</line>
+          <line>286</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
