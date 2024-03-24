@@ -351,12 +351,13 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
     public static void main(String[] args) {
 //        zamani();
 //        oku1();
-        veriEkleDene();
+        //veriEkleDene();
 //        dosyaOlustur();
 //        dosyaVarMi();
         //tekKullaniciOku();
         //Login("asimkilic","123123");//burası devam edilecek
-        readTransactionFFileByTC();
+        //readTransactionFFileByTC();
+        DataFileProcess.addData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH + "12345678901.txt","DataFileProcess addData");
 
     }
 }//m

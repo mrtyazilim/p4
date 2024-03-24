@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="dataproces javayı doldurmaya başlayalım">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFileProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dataable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dataable.java" afterDir="false" />
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="dataproces java addData, STATİC olarak kodlandı, run omadı hiç .">
       <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Veri/Olaylar/12345678901.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711298363669</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="dataproces java addData, STATİC olarak kodlandı, run omadı hiç .">
+      <created>1711300065058</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1711300065058</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,7 +436,8 @@
     <MESSAGE value="readTransactionFFileByTC" />
     <MESSAGE value="readTransactionFFileByTC temek okuma yapıldı" />
     <MESSAGE value="dataproces javayı doldurmaya başlayalım" />
-    <option name="LAST_COMMIT_MESSAGE" value="dataproces javayı doldurmaya başlayalım" />
+    <MESSAGE value="dataproces java addData, STATİC olarak kodlandı, run omadı hiç ." />
+    <option name="LAST_COMMIT_MESSAGE" value="dataproces java addData, STATİC olarak kodlandı, run omadı hiç ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
