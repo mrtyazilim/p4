@@ -5,5 +5,6 @@ veri eklerken nesneleri gruplamak için.
 
 public interface Dataable {
 
+
   
 }
