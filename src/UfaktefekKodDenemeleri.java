@@ -357,7 +357,11 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
         //tekKullaniciOku();
         //Login("asimkilic","123123");//burası devam edilecek
         //readTransactionFFileByTC();
-        DataFileProcess.addData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH + "12345678901.txt","DataFileProcess addData");
-
+        //DataFileProcess.addData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH + "12345678901.txt","DataFileProcess addData");
+        //DataFileProcess.addData(DOMAIN_CONSTANT.USER_DATAPATH ,"DataFileProcess addData");
+//DataFileProcess.getData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH+"12345678901.txt");
+        //DataFileProcess.readData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH+"12345678901.txt");
+        System.out.println(    DataFileProcess.getData
+                (DOMAIN_CONSTANT.TRANSACTION_DATAPATH+"12345678901.txt"));
     }
 }//m
