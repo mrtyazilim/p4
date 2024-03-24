@@ -279,6 +279,10 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
 
     }
 
+    static void readTransactionFFileByTC(){
+
+
+    }
     public static void main(String[] args) {
 //        zamani();
 //        oku1();
@@ -286,6 +290,7 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
 //        dosyaOlustur();
 //        dosyaVarMi();
         //tekKullaniciOku();
-        Login("asimkilic","123123");//burası devam edilecek
+        //Login("asimkilic","123123");//burası devam edilecek
+        readTransactionFFileByTC();
     }
  }//m
