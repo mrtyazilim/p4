@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Use {
+public class Use implements Dataable {
    static Scanner choiceScanner=new Scanner(System.in);
     static char choice;
     public static void main(String[] args) {

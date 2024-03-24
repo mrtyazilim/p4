@@ -9,17 +9,9 @@ import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.Scanner;
 public class UfaktefekKodDenemeleri {
-    public static void main(String[] args) {
-        zamani();
-        oku1();
-        veriEkleDene();
-        dosyaOlustur();
-        dosyaVarMi();
 
-    }
 
     private static void dosyaVarMi() {
-
     }
 
     private static void dosyaOlustur() {
@@ -192,10 +184,6 @@ public class StudentList {
 
     */
 
-
-
-
-
     private static void oku1() {
         File userFile=new File(DOMAIN_CONSTANT.USERDATAPATH2);//burası iyileşek .gerek olmayan bilir referans tipe
         userFile.
@@ -216,8 +204,85 @@ public class StudentList {
         //System.out.println(fileScanner.nextLine());
         System.out.println(satir);
     }
+    static void tekKullaniciOku(){
+        File userFile=new File(DOMAIN_CONSTANT.USER_DATAPATH);//burası iyileşek .gerek olmayan bilir referans tipe
+//        userFile.    toURI();
+
+        Scanner fileScanner;
+        String satir="";// "" KOYMAYA MECBUR KALdık. bilgi eksiğim mi var ki böyle aveni yoöntem kullandım?
+        try {
+            fileScanner = new Scanner(userFile);
+            satir=fileScanner.nextLine();
+        } catch (FileNotFoundException fileNotFoundException){
+            System.out.println(DOMAIN_CONSTANT.FILE_NOT_FOUND_MESSAGE);
+            //System.out.println(fileNotFoundException);
+            fileNotFoundException.printStackTrace();
+        } catch (IOException ioException) {
+            System.out.println(DOMAIN_CONSTANT.IOEXCEPTION_MESSAGE);
+        } catch (Exception e){
+            e.printStackTrace();
+            System.out.println(DOMAIN_CONSTANT.UNKNOWN_EXCEPTION_MESSAGE);
+        }
+
+        //BURAYA kendi mesajlarımı yazdım çünkü  kullanıcının bilmemei gereken şeyler olabilir. printstacktrace yapmadım
+        //System.out.println(fileScanner.nextLine());
+        System.out.println(satir);
+    }
+    static void Login(String loginAttempUserName, String loginAttempPassword){
+        File userFile=new File(DOMAIN_CONSTANT.USER_DATAPATH);//burası iyileşek .gerek olmayan bilir referans tipe
+        Scanner fileScanner;
+        String satir="";// "" KOYMAYA MECBUR KALdık. bilgi eksiğim mi var ki böyle aveni yoöntem kullandım?
+        try {
+            fileScanner = new Scanner(userFile);
+            satir=fileScanner.nextLine();
+        } catch (FileNotFoundException fileNotFoundException){
+            System.out.println(DOMAIN_CONSTANT.FILE_NOT_FOUND_MESSAGE);
+            //System.out.println(fileNotFoundException);
+            fileNotFoundException.printStackTrace();
+        } catch (IOException ioException) {
+            System.out.println(DOMAIN_CONSTANT.IOEXCEPTION_MESSAGE);
+        } catch (Exception e){
+            e.printStackTrace();
+            System.out.println(DOMAIN_CONSTANT.UNKNOWN_EXCEPTION_MESSAGE);
+        }
+        System.out.println(satir);
 
 
+        String recordedUserName,recordedPassword;
+        int pipe=satir.indexOf('|');
+        recordedUserName=satir.substring(0,pipe);
+        System.out.println(recordedUserName);
 
+        satir=satir.substring(pipe+1,satir.length());
+        System.out.println(satir);
+        pipe=satir.indexOf('|');
+        recordedPassword=satir.substring(0,pipe);
+        System.out.println(recordedPassword);
 
+/*
+her biri tek düze olmasına rağmen neden bu işler çalışmadı anlamadım. hepsi = ile .
+eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
+        if (loginAttempUserName==recordedUserName){
+            if (loginAttempPassword==recordedPassword){
+                System.out.println("doğrulandınız");
+            } else {System.out.println("giriş başarısız");}
+        }
+*/
+        if (loginAttempUserName.equals(recordedUserName)){
+            if (loginAttempPassword.equals(recordedPassword)){
+                System.out.println("doğrulandınız");
+            } else {System.out.println("giriş başarısız");}
+        }
+
+    }
+
+    public static void main(String[] args) {
+//        zamani();
+//        oku1();
+//        veriEkleDene();
+//        dosyaOlustur();
+//        dosyaVarMi();
+        //tekKullaniciOku();
+        Login("asimkilic","123123");//burası devam edilecek
+    }
  }//m

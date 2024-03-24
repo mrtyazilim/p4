@@ -1,5 +1,15 @@
 package VarliksalSiniflar;
 
+//import Veri.Dataable;
+
+
+import Veri.DOMAIN_CONSTANT;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+
 /**
  @author Murat Değirmenci,UPoDer
  
@@ -10,7 +20,8 @@ package VarliksalSiniflar;
 git git hub öğrenilmeli
 
 */
-public class User {
+//Dataable
+public class User   {
     public String username,password,name,surname;
     //public char[] tckn= {'1','1','2','2','3','4','4','5','5','5','5'};
     public char[] tckn=new char[11];
@@ -20,6 +31,8 @@ public class User {
     long balance;//bakiye
 
     enum gender {        Kadin,        Erkek    };
+
+
 
 
 
