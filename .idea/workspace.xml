@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="ide arızası oldu.&#10;yeni branch açtım. Taslak3Idedebranch ismi. Bunu githubdanki 2 den yapmaya çalıştım.&#10;ide bozulunca eski eideden devam ettik. proje yi bulamayınca githubdan almaya çalıştım zatem discord da otomatik kayıt ile gereksizler eklendi&#10;user.txtye varsayıland-deneme aamçlıdata elendi&#10;Dataable miras alındı user ve transaction dan&#10;loginin belini yaptım.">
-      <change beforePath="$PROJECT_DIR$/src/Dataable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dataable.java" afterDir="false" />
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="ilk push 4 e">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Use" />
+        <item itemvalue="Application.UfaktefekKodDenemeleri" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.UfaktefekKodDenemeleri" />
         <item itemvalue="Application.Use" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711273026165</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ilk push 4 e">
+      <created>1711275095634</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711275095634</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +376,8 @@
     <MESSAGE value="metin belgleri kapatıp açıldı" />
     <MESSAGE value="ilk seçim soruldu" />
     <MESSAGE value="ide arızası oldu.&#10;yeni branch açtım. Taslak3Idedebranch ismi. Bunu githubdanki 2 den yapmaya çalıştım.&#10;ide bozulunca eski eideden devam ettik. proje yi bulamayınca githubdan almaya çalıştım zatem discord da otomatik kayıt ile gereksizler eklendi&#10;user.txtye varsayıland-deneme aamçlıdata elendi&#10;Dataable miras alındı user ve transaction dan&#10;loginin belini yaptım." />
-    <option name="LAST_COMMIT_MESSAGE" value="ide arızası oldu.&#10;yeni branch açtım. Taslak3Idedebranch ismi. Bunu githubdanki 2 den yapmaya çalıştım.&#10;ide bozulunca eski eideden devam ettik. proje yi bulamayınca githubdan almaya çalıştım zatem discord da otomatik kayıt ile gereksizler eklendi&#10;user.txtye varsayıland-deneme aamçlıdata elendi&#10;Dataable miras alındı user ve transaction dan&#10;loginin belini yaptım." />
+    <MESSAGE value="ilk push 4 e" />
+    <option name="LAST_COMMIT_MESSAGE" value="ilk push 4 e" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
