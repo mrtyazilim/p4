@@ -17,7 +17,7 @@ public  class DOMAIN_CONSTANT {
                         //M1K1Proje1/untitled/src/Veri/Nesne
     public final static String TRANSACTION_DATAPATH="src/Veri/Olaylar/";
 
-    //İLETİŞİM SIK KULLANILANLAR
+    //İLETİŞİM SIK KULLANILANLAR;
 
 
     // hata mesajları
