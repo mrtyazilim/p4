@@ -6,10 +6,23 @@ import java.util.Scanner;
 
 public class Use implements Dataable {
    static Scanner choiceScanner=new Scanner(System.in);
-    static char choice;
+    static int choice;
     public static void main(String[] args) {
         ShowEntrance();
-        choice=choiceScanner.nextLine().charAt(0);
+        System.out.print("Seçim :");
+        choice=choiceScanner.nextInt();
+        switch (choice){
+            case 1 -> {
+                
+            }
+            case 2->{
+                userSingUp();
+            }
+        }
+
+    }
+
+    private static void userSingUp() {
     }
 
     static void ShowEntrance(){
