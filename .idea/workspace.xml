@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="| meselesi önemli">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="readTransactionFFileByTC">
+      <change afterPath="$PROJECT_DIR$/Dış soru, not, UML/pairden kod/StudentList_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veri/Olaylar/11111111111.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
     </list>
@@ -332,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711278140828</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="readTransactionFFileByTC">
+      <created>1711288282239</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711288282239</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +415,8 @@
     <MESSAGE value="ide arızası oldu.&#10;yeni branch açtım. Taslak3Idedebranch ismi. Bunu githubdanki 2 den yapmaya çalıştım.&#10;ide bozulunca eski eideden devam ettik. proje yi bulamayınca githubdan almaya çalıştım zatem discord da otomatik kayıt ile gereksizler eklendi&#10;user.txtye varsayıland-deneme aamçlıdata elendi&#10;Dataable miras alındı user ve transaction dan&#10;loginin belini yaptım." />
     <MESSAGE value="ilk push 4 e" />
     <MESSAGE value="| meselesi önemli" />
-    <option name="LAST_COMMIT_MESSAGE" value="| meselesi önemli" />
+    <MESSAGE value="readTransactionFFileByTC" />
+    <option name="LAST_COMMIT_MESSAGE" value="readTransactionFFileByTC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,12 +428,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>30</line>
+          <line>41</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>32</line>
+          <line>43</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -433,32 +443,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>262</line>
+          <line>276</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>267</line>
+          <line>281</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>268</line>
+          <line>282</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>269</line>
+          <line>283</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>270</line>
+          <line>284</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>271</line>
+          <line>285</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
