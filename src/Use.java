@@ -13,11 +13,12 @@ public class Use implements Dataable {
         choice=choiceScanner.nextInt();
         switch (choice){
             case 1 -> {
-                
+
             }
             case 2->{
                 userSingUp();
-            }
+            } case 3->{ return;}
+            default ->{ main(new String[1]);}
         }
 
     }
@@ -27,7 +28,7 @@ public class Use implements Dataable {
 
     static void ShowEntrance(){
         System.out.println("Hoşgeldiniz. \n Lütfen rakamlar yardımıyla seçiminizi yapınız.");
-        System.out.println("1 :Üye oturum girişi.\n2 :Üye ol. ");
+        System.out.println("1 :Üye oturum girişi.\n2 :Üye ol.\n3 :Çıkış ");
     }
     static void userLogin(){///Ask
         //static boolean userLogin(){///Ask
