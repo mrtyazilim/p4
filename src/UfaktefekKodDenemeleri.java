@@ -13,8 +13,6 @@ import java.util.Scanner;
 
 
 public class UfaktefekKodDenemeleri {
-
-
     private static void dosyaVarMi() {
     }
 
@@ -54,13 +52,19 @@ public class UfaktefekKodDenemeleri {
         System.out.println(today);
         //LocalTime localTime=new LocalTime();
         LocalTime now = LocalTime.now();
-
         System.out.println(LocalTime.now());
         //today.atTime()
 //        System.out.println(
 //                today.now(Clock)
 //        );
     }
+    private static void  zamani2(){
+        System.out.println(LocalTime.now().toString());
+        System.out.println(LocalDate.now());
+        String an=LocalDate.now().toString()+ " "+LocalTime.now().toString();
+        System.out.println(an);
+    }
+
 
     static void veriEkleDene() {
         Transaction transaction = new Transaction();
@@ -349,7 +353,8 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
     }
 
     public static void main(String[] args) {
-//        zamani();
+      // zamani();
+        zamani2();
 //        oku1();
         //veriEkleDene();
 //        dosyaOlustur();
@@ -360,8 +365,8 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
         //DataFileProcess.addData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH + "12345678901.txt","DataFileProcess addData");
         //DataFileProcess.addData(DOMAIN_CONSTANT.USER_DATAPATH ,"DataFileProcess addData");
 //DataFileProcess.getData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH+"12345678901.txt");
-        //DataFileProcess.readData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH+"12345678901.txt");
-        System.out.println(    DataFileProcess.getData
-                (DOMAIN_CONSTANT.TRANSACTION_DATAPATH+"12345678901.txt"));
+        //ataFileProcess.readData(DOMAIN_CONSTANT.TRANSACTION_DATAPATH+"12345678901.txt");
+        //System.out.println(    DataFileProcess.getData
+               // (DOMAIN_CONSTANT.TRANSACTION_DATAPATH+"12345678901.txt"));
     }
 }//m
