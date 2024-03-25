@@ -1,5 +1,4 @@
 import Servisler.UserService;
-
 import java.util.Scanner;
 
 /**
@@ -7,6 +6,7 @@ son kullanıcı genel amaçlı ekrandan iletişim ve  seçmleribi alma
  form işlemleri
 
 
+@annotation userNameAndPassword() metodu ile giriş ve kayıt için ortak noktalar toğlanacak. implementasyonu şu an için boş.
 
 */
 public class UserInterface {
@@ -44,7 +44,18 @@ public class UserInterface {
         password=scanner.nextLine();
         UserService.Login(userName,password);
     }
+    static void userNameAndPassword(){}
     private static void userSingUp() {
+        System.out.println("Kaydol.");
+        System.out.println("Lütfen sizden istenecek bilgileri veriniz.");
+        System.out.print("Kullanıcı adı :");
+        System.out.print("Parola :");
+        System.out.print("Ad :");
+        System.out.print("Soyad :");
+        System.out.print("TC k. no :");
+        System.out.print("Cinsiyet :");
+        System.out.print("");
     }
+
 
 }
