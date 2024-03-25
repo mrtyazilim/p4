@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="login ile traactionu bağlamaya doğru">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="login ile traactionu parametreler bağlandı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Servisler/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servisler/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <recent name="$PROJECT_DIR$/Dış soru, not, UML" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserService">
+  <component name="RunManager" selected="Application.Use">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GeriDonusumKutusu.Main" />
       <module name="untitled" />
@@ -104,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserService" />
         <item itemvalue="Application.Use" />
+        <item itemvalue="Application.UserService" />
         <item itemvalue="Application.UfaktefekKodDenemeleri" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.UfaktefekKodDenemeleri" />
@@ -127,14 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710399539639</updated>
-    </task>
-    <task id="LOCAL-00002" summary="oku1 wet //">
-      <option name="closed" value="true" />
-      <created>1710648661632</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1710648661632</updated>
     </task>
     <task id="LOCAL-00003" summary="txt ye veri ekleme deemesi oldu">
       <option name="closed" value="true" />
@@ -492,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711349367326</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="login ile traactionu parametreler bağlandı">
+      <created>1711350693357</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1711350693357</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ilk seçim soruldu" />
     <MESSAGE value="ide arızası oldu.&#10;yeni branch açtım. Taslak3Idedebranch ismi. Bunu githubdanki 2 den yapmaya çalıştım.&#10;ide bozulunca eski eideden devam ettik. proje yi bulamayınca githubdan almaya çalıştım zatem discord da otomatik kayıt ile gereksizler eklendi&#10;user.txtye varsayıland-deneme aamçlıdata elendi&#10;Dataable miras alındı user ve transaction dan&#10;loginin belini yaptım." />
     <MESSAGE value="ilk push 4 e" />
     <MESSAGE value="| meselesi önemli" />
@@ -575,7 +575,8 @@
     <MESSAGE value="eklemeler&#10;boş userservice ve sözde metod çağrısı işlem okumalarını yapan" />
     <MESSAGE value="exeption" />
     <MESSAGE value="login ile traactionu bağlamaya doğru" />
-    <option name="LAST_COMMIT_MESSAGE" value="login ile traactionu bağlamaya doğru" />
+    <MESSAGE value="login ile traactionu parametreler bağlandı" />
+    <option name="LAST_COMMIT_MESSAGE" value="login ile traactionu parametreler bağlandı" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,7 +598,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Use.java</url>
-          <line>60</line>
+          <line>29</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

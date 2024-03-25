@@ -2,6 +2,7 @@ package Servisler;
 
 import Veri.DOMAIN_CONSTANT;
 
+import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -37,7 +38,7 @@ public  class UserService {
         pipe = satir.indexOf('|');
         recordedPassword = satir.substring(0, pipe);
         //System.out.println(recordedPassword);
-       String recordedTC="11111111111";
+       String recordedTC="12345678901";
 /*
 her biri tek düze olmasına rağmen neden bu işler çalışmadı anlamadım. hepsi = ile .
 eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
@@ -53,6 +54,7 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
 
                 TransactionService.readTransactionFFileByTC(recordedTC);
             } else {
+                //SystemColor
                 System.out.println("giriş başarısız");
 
             }
