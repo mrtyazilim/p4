@@ -1,4 +1,8 @@
 import Servisler.UserService;
+import Veri.DOMAIN_CONSTANT;
+import VeriselTipler.Dataable;
+import VeriselTipler.User;
+
 import java.util.Scanner;
 
 /**
@@ -7,7 +11,7 @@ son kullanıcı genel amaçlı ekrandan iletişim ve  seçmleribi alma
 
 
 @annotation userNameAndPassword() metodu ile giriş ve kayıt için ortak noktalar toğlanacak. implementasyonu şu an için boş.
-
+interface kullanan bu sınıfın interface li versiyonu henüz implemente edilmedi.
 */
 public class UserInterface {
     static Scanner choiceScanner=new Scanner(System.in);
@@ -46,6 +50,8 @@ public class UserInterface {
     }
     static void userNameAndPassword(){}
     private static void userSingUp() {
+        Scanner askUserData=new Scanner(System.in);
+        Dataable userForAddingToData=new User();
         System.out.println("Kaydol.");
         System.out.println("Lütfen sizden istenecek bilgileri veriniz.");
         System.out.print("Kullanıcı adı :");
@@ -55,6 +61,10 @@ public class UserInterface {
         System.out.print("TC k. no :");
         System.out.print("Cinsiyet :");
         System.out.print("");
+
+
+        // DataFileProcess.addData Dataable overloadı henüz içi boş
+        DataFileProcess.addData(DOMAIN_CONSTANT.USER_DATAPATH,userForAddingToData);
     }
 
 
