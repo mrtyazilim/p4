@@ -19,18 +19,12 @@ public  class UserService {
             fileScanner = new Scanner(userFile);
             satir = fileScanner.nextLine();
         } catch (FileNotFoundException fileNotFoundException) {
-            System.out.println(DOMAIN_CONSTANT.FILE_NOT_FOUND_MESSAGE);
-            //System.out.println(fileNotFoundException);
-            fileNotFoundException.printStackTrace();
-        } catch (IOException ioException) {
-            System.out.println(DOMAIN_CONSTANT.IOEXCEPTION_MESSAGE);
-        } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(DOMAIN_CONSTANT.FILE_NOT_FOUND_MESSAGE);            //System.out.println(fileNotFoundException);
+            fileNotFoundException.printStackTrace(); } catch (Exception e) {                                                   //            e.printStackTrace();
             System.out.println(DOMAIN_CONSTANT.UNKNOWN_EXCEPTION_MESSAGE);
         }
 
         //buraya koruma bkodu gelmeli. | tanbelli bir sayıda varsa bu data dır.
-
         //System.out.println(satir);
 
         String recordedUserName, recordedPassword;
@@ -43,8 +37,7 @@ public  class UserService {
         pipe = satir.indexOf('|');
         recordedPassword = satir.substring(0, pipe);
         //System.out.println(recordedPassword);
-
-
+       String recordedTC="11111111111";
 /*
 her biri tek düze olmasına rağmen neden bu işler çalışmadı anlamadım. hepsi = ile .
 eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
@@ -57,7 +50,8 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
         if (loginAttempUserName.equals(recordedUserName)) {
             if (loginAttempPassword.equals(recordedPassword)) {
                 System.out.println("doğrulandınız");
-                TransactionService.readTransactionFFileByTC("");
+
+                TransactionService.readTransactionFFileByTC(recordedTC);
             } else {
                 System.out.println("giriş başarısız");
 

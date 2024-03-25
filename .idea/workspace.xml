@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="exeption">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="login ile traactionu bağlamaya doğru">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dış soru, not, UML/pairden kod/StudentList_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dış soru, not, UML/pairden kod/StudentList_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFileProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFileProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servisler/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servisler/TransactionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Servisler/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servisler/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,14 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710399539639</updated>
-    </task>
-    <task id="LOCAL-00001" summary="oku1 wet">
-      <option name="closed" value="true" />
-      <created>1710648284833</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1710648284833</updated>
     </task>
     <task id="LOCAL-00002" summary="oku1 wet //">
       <option name="closed" value="true" />
@@ -498,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711347527198</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="login ile traactionu bağlamaya doğru">
+      <created>1711349367325</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1711349367326</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metin belgleri kapatıp açıldı" />
     <MESSAGE value="ilk seçim soruldu" />
     <MESSAGE value="ide arızası oldu.&#10;yeni branch açtım. Taslak3Idedebranch ismi. Bunu githubdanki 2 den yapmaya çalıştım.&#10;ide bozulunca eski eideden devam ettik. proje yi bulamayınca githubdan almaya çalıştım zatem discord da otomatik kayıt ile gereksizler eklendi&#10;user.txtye varsayıland-deneme aamçlıdata elendi&#10;Dataable miras alındı user ve transaction dan&#10;loginin belini yaptım." />
     <MESSAGE value="ilk push 4 e" />
@@ -581,7 +574,8 @@
     <MESSAGE value="Use da seçim ve metod&#10; seçim metodhaline getirildi ve char at ile kırılma riski azaltıldı" />
     <MESSAGE value="eklemeler&#10;boş userservice ve sözde metod çağrısı işlem okumalarını yapan" />
     <MESSAGE value="exeption" />
-    <option name="LAST_COMMIT_MESSAGE" value="exeption" />
+    <MESSAGE value="login ile traactionu bağlamaya doğru" />
+    <option name="LAST_COMMIT_MESSAGE" value="login ile traactionu bağlamaya doğru" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

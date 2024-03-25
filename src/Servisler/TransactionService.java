@@ -27,7 +27,7 @@ public class TransactionService {
             count++;
     }
 */
-        TC = "11111111111";
+        //TC = "11111111111";
         String satir;
         int rowCount = 0;
         Scanner fileScanner;
