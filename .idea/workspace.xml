@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="taşıyamadım" />
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="Dataable, amele usulu de olsa VeriselTipler klasörüne ide ile desteğiyle taşındı">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFileProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFileProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veri/Nesne/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/Nesne/User.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VeriselTipler/Dataable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeriselTipler/Dataable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -449,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711314662552</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Dataable, amele usulu de olsa VeriselTipler klasörüne ide ile desteğiyle taşındı">
+      <created>1711344227519</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1711344227519</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dosya gezginiyle dosya yeri değiştirildi" />
     <MESSAGE value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
     <MESSAGE value="ShowEntrance();" />
     <MESSAGE value="hata iletişim metni1, geridönüşüm kutusu, User.txt ve yolu" />
@@ -532,7 +545,8 @@
     <MESSAGE value="klasöür yapısı değiştirilmeden önce&#10;vverisel ve servisesel diye" />
     <MESSAGE value="transaction service" />
     <MESSAGE value="taşıyamadım" />
-    <option name="LAST_COMMIT_MESSAGE" value="taşıyamadım" />
+    <MESSAGE value="Dataable, amele usulu de olsa VeriselTipler klasörüne ide ile desteğiyle taşındı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dataable, amele usulu de olsa VeriselTipler klasörüne ide ile desteğiyle taşındı" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,7 +568,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Use.java</url>
-          <line>44</line>
+          <line>62</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
