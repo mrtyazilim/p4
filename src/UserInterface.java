@@ -48,6 +48,7 @@ public class UserInterface {
         password=scanner.nextLine();
         UserService.Login(userName,password);
     }
+    
     static void userNameAndPassword(){}
     private static void userSingUp() {
         //bu metod userservice taşınabilir.

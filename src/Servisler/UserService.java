@@ -13,6 +13,9 @@ public  class UserService {
         Login("ahmet1905","19051905");
     }
    public static void Login(String loginAttempUserName, String loginAttempPassword) {
+        
+        //String[] Users=DataFileProcess.getData_v2(DOMAIN_CONSTANT.USER_DATAPATH);
+        //BELLkten zarar ama koddan kar . oku-yaz yapan 1 er metod indireceksek dizin dondormeliyiz data sınıfında
         File userFile = new File(DOMAIN_CONSTANT.USER_DATAPATH);//burası iyileşek .gerek olmayan bilir referans tipe
         Scanner fileScanner;
         String satir = "";// "" KOYMAYA MECBUR KALdık. bilgi eksiğim mi var ki böyle aveni yoöntem kullandım?
