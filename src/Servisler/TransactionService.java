@@ -9,7 +9,13 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class TransactionService {
-    static public void readTransactionFFileByTC() {
+    static public void readTransactionFFileByTC(String TC) {
+        /* parametre kullanmak; bilinmezlinği , başkasını bilmeden kodlama yapılabilirliği artırıyor sanki. başkasını bilmiyor
+        kendini biliyor. kendisini(formal parametresini bilmesi) kötünün iyisi bi hal. ilim ilim bilmektir, ilim kendin bilmektir.
+        verinin formatı açısından zamet çıkarır mı?
+
+         */
+
 /*
     pdf de açıklama yoksa sola kayık geliyor.sütün ile içerik tür /anlambakımından uyumsuz. sonra düzeltilebilir.
     açıklamayı sütün olarak DOMANIN_CONTSTANT'TA mı tutsam?
@@ -21,7 +27,7 @@ public class TransactionService {
             count++;
     }
 */
-        String TC = "11111111111";
+        TC = "11111111111";
         String satir;
         int rowCount = 0;
         Scanner fileScanner;

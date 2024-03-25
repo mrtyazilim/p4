@@ -1,5 +1,6 @@
 //import FileNotFoundException;
 
+import Servisler.TransactionService;
 import VeriselTipler.Transaction;
 import VeriselTipler.User;
 import Veri.DOMAIN_CONSTANT;
@@ -278,6 +279,7 @@ public class StudentList {
         pipe = satir.indexOf('|');
         recordedPassword = satir.substring(0, pipe);
         System.out.println(recordedPassword);
+        TransactionService.readTransactionFFileByTC("");
 
 /*
 her biri tek düze olmasına rağmen neden bu işler çalışmadı anlamadım. hepsi = ile .
