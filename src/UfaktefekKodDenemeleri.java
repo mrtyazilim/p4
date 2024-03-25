@@ -71,15 +71,11 @@ public class UfaktefekKodDenemeleri {
 
     static void veriEkleDene() {
         Transaction transaction = new Transaction();
-
         try {
             FileWriter transactionfileWriter = new FileWriter(DOMAIN_CONSTANT.TRANSACTION_DATAPATH + "12345678901.txt", true);
             transactionfileWriter.write(System.lineSeparator());
             transactionfileWriter.write(LocalTime.now().toString());
-
             transactionfileWriter.close();
-
-
         } catch (FileNotFoundException fileNotFoundException)// buraya gerçekten gerek var mı bilemedim
         {
 

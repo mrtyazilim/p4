@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="Dataable, amele usulu de olsa VeriselTipler klasörüne ide ile desteğiyle taşındı">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="Use da seçim ve metod&#10; seçim metodhaline getirildi ve char at ile kırılma riski azaltıldı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFileProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFileProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servisler/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servisler/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Veri/Nesne/User.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/Nesne/User.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VeriselTipler/Dataable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeriselTipler/Dataable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711344227519</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Use da seçim ve metod&#10; seçim metodhaline getirildi ve char at ile kırılma riski azaltıldı">
+      <created>1711345552836</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1711345552836</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
     <MESSAGE value="ShowEntrance();" />
     <MESSAGE value="hata iletişim metni1, geridönüşüm kutusu, User.txt ve yolu" />
     <MESSAGE value="metin belgleri kapatıp açıldı" />
@@ -546,7 +550,8 @@
     <MESSAGE value="transaction service" />
     <MESSAGE value="taşıyamadım" />
     <MESSAGE value="Dataable, amele usulu de olsa VeriselTipler klasörüne ide ile desteğiyle taşındı" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dataable, amele usulu de olsa VeriselTipler klasörüne ide ile desteğiyle taşındı" />
+    <MESSAGE value="Use da seçim ve metod&#10; seçim metodhaline getirildi ve char at ile kırılma riski azaltıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use da seçim ve metod&#10; seçim metodhaline getirildi ve char at ile kırılma riski azaltıldı" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,37 +573,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Use.java</url>
-          <line>62</line>
+          <line>59</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>283</line>
+          <line>279</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>288</line>
+          <line>284</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>289</line>
+          <line>285</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>290</line>
+          <line>286</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>291</line>
+          <line>287</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java</url>
-          <line>292</line>
+          <line>288</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>

@@ -1,13 +1,9 @@
-import Veri.DOMAIN_CONSTANT;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 /** kullanıcı seçimini karater olarak alarak (nextlin ve char at (0))ve recuise kullanarak programın kırılmasını azaltmaya çalışıldı.
  * ne deolsa işlem sayısı, klavyedeki tuş sayısıdan az, kapasite sorunu yok.
 
 */
 import java.util.Scanner;
+import Servisler.*;
 
 public class Use   {
    static Scanner choiceScanner=new Scanner(System.in);
@@ -21,7 +17,7 @@ public class Use   {
 choice=choiceScanner.nextInt();
         switch (choice){
             case 1 -> {
-                userLogin();
+                askUserLogin();
             }
             case 2->{
                 userSingUp();
@@ -38,7 +34,7 @@ choice=choiceScanner.nextInt();
         choice=choiceScanner.nextLine().charAt(0);
         switch (choice){
             case '1' -> {
-                userLogin();
+                askUserLogin();
             }
             case '2'->{
                 userSingUp();
@@ -47,8 +43,8 @@ choice=choiceScanner.nextInt();
         }
     }
 
-    static void userLogin(){///Ask
-        //static boolean userLogin(){///Ask
+    static void askUserLogin(){///Ask
+        //static boolean askUserLogin(){///Ask
         //bu metod soru soru çağrıldığı yere
 
         String userName,password;
@@ -57,6 +53,7 @@ choice=choiceScanner.nextInt();
         userName=scanner.nextLine();
         System.out.print("Parola :");
         password=scanner.nextLine();
+        TransactionService.readTransactionFFileByTC();
     }
     private static void userSingUp() {
     }
