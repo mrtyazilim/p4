@@ -52,4 +52,21 @@ public class DataFileProcess {
 
         return row;
     }
+        public static String[] getData_v2(String pathAndFileName){
+        File dataFile=new File(pathAndFileName);
+        Scanner fileScanner;
+        int rowCount=0;
+        String[] rows=null;
+        try {
+            fileScanner=new Scanner(dataFile);
+            //if (fileScanner.hasl)
+            row=fileScanner.nextLine();
+            //System.out.println(row);
+        }
+        catch (FileNotFoundException fileNotFoundException) { System.out.println(DOMAIN_CONSTANT.FILE_NOT_FOUND_MESSAGE);  }
+        catch (IOException ioException){ System.out.println(DOMAIN_CONSTANT.IOEXCEPTION_MESSAGE); }
+        catch (Exception exception){ System.out.println(DOMAIN_CONSTANT.UNKNOWN_EXCEPTION_MESSAGE);  }
+
+        return rows;
+    }
 }
