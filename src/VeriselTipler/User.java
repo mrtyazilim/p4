@@ -14,7 +14,7 @@ git git hub öğrenilmeli
 
 */
 //Dataable
-public class User   {
+public class User  implements Dataable {
     public String username,password,name,surname;
     //public char[] tckn= {'1','1','2','2','3','4','4','5','5','5','5'};
     public char[] tckn=new char[11];

@@ -3,7 +3,7 @@ package VeriselTipler;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Transaction  {
+public class Transaction implements Dataable {
     /*
     description (boş olabilir)
     transactionDate (tarih ve saat - istenilen biçimde tutulabilir)

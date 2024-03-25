@@ -3,7 +3,7 @@
 
 import Veri.DOMAIN_CONSTANT;
 import VeriselTipler.*;
-import javax.imageio.IIOException;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;

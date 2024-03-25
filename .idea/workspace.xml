@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="transaction service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFileProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFileProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Use.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" afterDir="false" />
-    </list>
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="taşıyamadım" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -447,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711314083399</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="taşıyamadım">
+      <created>1711314662552</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1711314662552</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java doc denemesi yapıldı" />
     <MESSAGE value="dosya gezginiyle dosya yeri değiştirildi" />
     <MESSAGE value="geridönüşüm kutusu, açıklamasatırı olan sınıf, kullanıcı veri girisi istemeyee başlamadan önce" />
     <MESSAGE value="ShowEntrance();" />
@@ -530,7 +531,8 @@
     <MESSAGE value="UserInterface boş olraak geldi" />
     <MESSAGE value="klasöür yapısı değiştirilmeden önce&#10;vverisel ve servisesel diye" />
     <MESSAGE value="transaction service" />
-    <option name="LAST_COMMIT_MESSAGE" value="transaction service" />
+    <MESSAGE value="taşıyamadım" />
+    <option name="LAST_COMMIT_MESSAGE" value="taşıyamadım" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
