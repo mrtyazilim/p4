@@ -50,6 +50,7 @@ public class UserInterface {
     }
     static void userNameAndPassword(){}
     private static void userSingUp() {
+        //bu metod userservice taşınabilir.
         Scanner askUserData=new Scanner(System.in);
         Dataable userForAddingToData=new User();
         System.out.println("Kaydol.");

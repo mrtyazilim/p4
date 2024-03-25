@@ -3,6 +3,10 @@
 
 package Servisler;
 import Veri.DOMAIN_CONSTANT;
+import VeriselTipler.Dataable;
+import VeriselTipler.Transaction;
+//import DataFileProcess;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -16,17 +20,17 @@ public class TransactionService {
 
          */
 
-/*
-    pdf de açıklama yoksa sola kayık geliyor.sütün ile içerik tür /anlambakımından uyumsuz. sonra düzeltilebilir.
-    açıklamayı sütün olarak DOMANIN_CONTSTANT'TA mı tutsam?
-*/
+    /*
+        pdf de açıklama yoksa sola kayık geliyor.sütün ile içerik tür /anlambakımından uyumsuz. sonra düzeltilebilir.
+        açıklamayı sütün olarak DOMANIN_CONTSTANT'TA mı tutsam?
+    */
 
-/*
-    while (input.hasNextLine()) {
-            input.nextLine();
-            count++;
-    }
-*/
+    /*
+        while (input.hasNextLine()) {
+                input.nextLine();
+                count++;
+        }
+    */
         //TC = "11111111111";
         String satir;
         int rowCount = 0;
@@ -58,5 +62,15 @@ public class TransactionService {
             e.printStackTrace();
             System.out.println(DOMAIN_CONSTANT.UNKNOWN_EXCEPTION_MESSAGE);
         }
+    }
+    static void addTransaction(){
+        //nredesiniz, işlem rehberi
+        Dataable transactionForAddingToData=new Transaction();
+        System.out.println("Transaction ekle.");
+        //System.out.println();
+        System.out.print("Açıklama");
+        System.out.print("işlem miktarı");
+        //DataFileProcess.addData(DOMAIN_CONSTANT.USER_DATAPATH,userForAddingToData);
+
     }
 }
