@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="Use da seçim ve metod&#10; seçim metodhaline getirildi ve char at ile kırılma riski azaltıldı">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="eklemeler&#10;boş userservice ve sözde metod çağrısı işlem okumalarını yapan">
+      <change afterPath="$PROJECT_DIR$/src/Servisler/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Servisler/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servisler/TransactionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
@@ -468,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711345552836</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="eklemeler&#10;boş userservice ve sözde metod çağrısı işlem okumalarını yapan">
+      <created>1711346412536</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1711346412536</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,7 +534,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ShowEntrance();" />
     <MESSAGE value="hata iletişim metni1, geridönüşüm kutusu, User.txt ve yolu" />
     <MESSAGE value="metin belgleri kapatıp açıldı" />
     <MESSAGE value="ilk seçim soruldu" />
@@ -551,7 +558,8 @@
     <MESSAGE value="taşıyamadım" />
     <MESSAGE value="Dataable, amele usulu de olsa VeriselTipler klasörüne ide ile desteğiyle taşındı" />
     <MESSAGE value="Use da seçim ve metod&#10; seçim metodhaline getirildi ve char at ile kırılma riski azaltıldı" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use da seçim ve metod&#10; seçim metodhaline getirildi ve char at ile kırılma riski azaltıldı" />
+    <MESSAGE value="eklemeler&#10;boş userservice ve sözde metod çağrısı işlem okumalarını yapan" />
+    <option name="LAST_COMMIT_MESSAGE" value="eklemeler&#10;boş userservice ve sözde metod çağrısı işlem okumalarını yapan" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
