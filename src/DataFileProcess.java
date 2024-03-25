@@ -1,6 +1,5 @@
 //import java.time.Clock;
 
-
 import Veri.DOMAIN_CONSTANT;
 import VeriselTipler.*;
 import java.io.File;
@@ -8,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-
+// bu dosyada doğru düzgün açıklama satırı yok. meraka ve görev borcuna dair ihtiyaç az oldu bu dosyada.
 public class DataFileProcess {
     public static void addData(String pathAndFileName,String data){
         try {
