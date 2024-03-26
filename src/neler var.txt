@@ -9,5 +9,6 @@ interface
 işlevine uygun sınıf ve klasör bölmwlwei
 polymorphism(taslak)
 javadoc
+bilinmezlik-verisel işlemler ve ve formal parametrelilik
 --
 github ile ilgili sorunlar ve başka sorunlar var.
