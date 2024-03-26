@@ -33,7 +33,7 @@ public  class UserService {
         //System.out.println(satir);
        System.out.println(satir);
        String[] rowsCells=satir.split(DOMAIN_CONSTANT.DATA_ROW_SEPERATOR);
-        String recordedUserName, recordedPassword;
+        String recordedUserName, recordedPassword,recordedTC;
        /* eski kod, yerine spitl gelecek
         int pipe = satir.indexOf('|');
         recordedUserName = satir.substring(0, pipe);
@@ -46,8 +46,8 @@ public  class UserService {
         //System.out.println(recordedPassword);
 
 */
-       recordedUserName=rowsCells[0]; recordedPassword=rowsCells[1];
-       String recordedTC="12345678901";
+       recordedUserName=rowsCells[0]; recordedPassword=rowsCells[1];recordedTC=rowsCells[4];
+        recordedTC="12345678901";
 
 /*
 her biri tek düze olmasına rağmen neden bu işler çalışmadı anlamadım. hepsi = ile .
