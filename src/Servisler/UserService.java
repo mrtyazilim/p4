@@ -31,8 +31,10 @@ public  class UserService {
 
         //buraya koruma bkodu gelmeli. | tanbelli bir sayıda varsa bu data dır.
         //System.out.println(satir);
-
+       System.out.println(satir);
+       String[] rowsCells=satir.split(DOMAIN_CONSTANT.DATA_ROW_SEPERATOR);
         String recordedUserName, recordedPassword;
+       /* eski kod, yerine spitl gelecek
         int pipe = satir.indexOf('|');
         recordedUserName = satir.substring(0, pipe);
         //System.out.println(recordedUserName);
@@ -42,6 +44,9 @@ public  class UserService {
         pipe = satir.indexOf('|');
         recordedPassword = satir.substring(0, pipe);
         //System.out.println(recordedPassword);
+
+*/
+       recordedUserName=rowsCells[0]; recordedPassword=rowsCells[1];
        String recordedTC="12345678901";
 
 /*

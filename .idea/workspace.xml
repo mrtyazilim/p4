@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="açıklama satırı kod bloğu azaltalım">
+    <list default="true" id="dde4f116-8a46-4e17-b8e1-c5f965399522" name="Changes" comment="java doc notllara veri tipina dair ekleme &#10;AYRAÇ İSE DATA_ROW_SEPERATOR daki gibi olmalıdır">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servisler/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servisler/TransactionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Servisler/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servisler/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UfaktefekKodDenemeleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veri/DOMAIN_CONSTANT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeriselTipler/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VeriselTipler/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeriselTipler/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,7 @@
   "keyToString": {
     "Application.UfaktefekKodDenemeleri.executor": "Run",
     "Application.Use.executor": "Run",
+    "Application.UserService.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,7 +70,7 @@
       <recent name="$PROJECT_DIR$/Dış soru, not, UML" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UfaktefekKodDenemeleri">
+  <component name="RunManager" selected="Application.UserService">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GeriDonusumKutusu.Main" />
       <module name="untitled" />
@@ -109,9 +107,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserService" />
         <item itemvalue="Application.UfaktefekKodDenemeleri" />
         <item itemvalue="Application.Use" />
-        <item itemvalue="Application.UserService" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.UfaktefekKodDenemeleri" />
       </list>
@@ -132,14 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710399539639</updated>
-    </task>
-    <task id="LOCAL-00008" summary="commint and push">
-      <option name="closed" value="true" />
-      <created>1710744069432</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1710744069432</updated>
     </task>
     <task id="LOCAL-00009" summary="commint and push">
       <option name="closed" value="true" />
@@ -493,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711439076408</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="java doc notllara veri tipina dair ekleme &#10;AYRAÇ İSE DATA_ROW_SEPERATOR daki gibi olmalıdır">
+      <option name="closed" value="true" />
+      <created>1711440564060</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1711440564060</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dataproces javayı doldurmaya başlayalım" />
     <MESSAGE value="dataproces java addData, STATİC olarak kodlandı, run omadı hiç ." />
     <MESSAGE value="dataproces java addData, STATİC olarak kodlandı, parametrelş olarak çalıştı. transaction şelinde." />
     <MESSAGE value="dataproces java addData,&#10;interface için over loaded metod iterface (imza) tanımlandı." />
@@ -576,7 +573,8 @@
     <MESSAGE value=" DataFileProcess.addData Dataable overloadı henüz içi boş" />
     <MESSAGE value="cihaz değişim deneme&#10;//başkabir bilgisayara githubdan alıp repo sahibi olduğumuzu belirtme" />
     <MESSAGE value="açıklama satırı kod bloğu azaltalım" />
-    <option name="LAST_COMMIT_MESSAGE" value="açıklama satırı kod bloğu azaltalım" />
+    <MESSAGE value="java doc notllara veri tipina dair ekleme &#10;AYRAÇ İSE DATA_ROW_SEPERATOR daki gibi olmalıdır" />
+    <option name="LAST_COMMIT_MESSAGE" value="java doc notllara veri tipina dair ekleme &#10;AYRAÇ İSE DATA_ROW_SEPERATOR daki gibi olmalıdır" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -37,6 +37,7 @@ public class TransactionService {
         Scanner fileScanner;
         File transactionFile = new File(DOMAIN_CONSTANT.TRANSACTION_DATAPATH + TC + ".txt");//burası iyileşek .gerek olmayan bilir referans tipe
         try {
+            System.out.println("Transaction'lar");
             fileScanner = new Scanner(transactionFile);
             while (fileScanner.hasNextLine()) {
                 rowCount++;
