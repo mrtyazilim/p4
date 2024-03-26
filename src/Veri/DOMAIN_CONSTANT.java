@@ -9,6 +9,8 @@ package Veri;
 
 //başkabir bilgisayara (maviye) githubdan alıp repo sahibi olduğumuzu belirtme
 public  class DOMAIN_CONSTANT {
+
+
     //"Veri/Nesne/denememetin.txt";
     //M1K1Proje1/untitled/src/Veri/Nesne
     // public static final String OBJECTDATAPATH="Veri/Nesne/denememetin.txt";

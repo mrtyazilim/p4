@@ -56,7 +56,7 @@ public class DataFileProcess {
         File dataFile=new File(pathAndFileName);
         Scanner fileScanner;
         int rowCount=0;
-        String[] rows=null;
+        String row; String[] rows=null;
         try {
             fileScanner=new Scanner(dataFile);
             //if (fileScanner.hasl)

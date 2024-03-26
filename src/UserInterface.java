@@ -12,6 +12,8 @@ son kullanıcı genel amaçlı ekrandan iletişim ve  seçmleribi alma
 
 @annotation userNameAndPassword() metodu ile giriş ve kayıt için ortak noktalar toğlanacak. implementasyonu şu an için boş.
 interface kullanan bu sınıfın interface li versiyonu henüz implemente edilmedi.
+
+askInEntrance(), recuise ve yeni switch kullanıyor.
 */
 public class UserInterface {
     static Scanner choiceScanner=new Scanner(System.in);
@@ -23,7 +25,6 @@ public class UserInterface {
         System.out.print("Seçim :");
     }
     static void askInEntrance(){
-
         choice=choiceScanner.nextLine().charAt(0);
         switch (choice){
             case '1' -> {

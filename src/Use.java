@@ -24,13 +24,4 @@ choice=choiceScanner.nextInt();
         }*/
     }
 
-
-
-
-    static void askUserInfo(){
-
-
-    }
-
-
 }
