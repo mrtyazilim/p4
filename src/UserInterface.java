@@ -49,8 +49,6 @@ public class UserInterface {
         password=scanner.nextLine();
         UserService.Login(userName,password);
     }
-    
-    static void userNameAndPassword(){}
     private static void userSingUp() {
         //bu metod userservice taşınabilir.
         Scanner askUserData=new Scanner(System.in);
@@ -64,11 +62,17 @@ public class UserInterface {
         System.out.print("TC k. no :");
         System.out.print("Cinsiyet :");
         System.out.print("");
-
-
         // DataFileProcess.addData Dataable overloadı henüz içi boş
         DataFileProcess.addData(DOMAIN_CONSTANT.USER_DATAPATH,userForAddingToData);
     }
+    static void showUnSuccessedLoginAttemptMwnu(){
+        System.out.print("Yeniden seçim yapınız. " );
+        choice=choiceScanner.nextLine().charAt(0);
+        switch (choice){
+            case 1->{}
+        }
+    }
+    static void userNameAndPassword(){}
 
 
 }
