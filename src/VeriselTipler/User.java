@@ -1,11 +1,12 @@
 package VeriselTipler;
-
 //import Veri.Dataable;
-
-
 /**
  @author Murat Değirmenci,UPoDer
- 
+ verinin dosyada sıralaması asgari olarak şu şekildedir
+ kullanıcı adı,şifre,ad,soyad,tc,cinsiyet
+ AYRAÇ İSE DATA_ROW_SEPERATOR daki gibi olmalıdır
+ Veriyi işleyen tipler de buna göre işlem yapmaldır. aksi takdirde karmaşa çıkar.
+
  */
 
 /*

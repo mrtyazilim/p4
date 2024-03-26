@@ -6,6 +6,7 @@ import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public  class UserService {
@@ -42,6 +43,7 @@ public  class UserService {
         recordedPassword = satir.substring(0, pipe);
         //System.out.println(recordedPassword);
        String recordedTC="12345678901";
+
 /*
 her biri tek düze olmasına rağmen neden bu işler çalışmadı anlamadım. hepsi = ile .
 eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
@@ -54,7 +56,6 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
         if (loginAttempUserName.equals(recordedUserName)) {
             if (loginAttempPassword.equals(recordedPassword)) {
                 System.out.println("doğrulandınız");
-
                 TransactionService.readTransactionFFileByTC(recordedTC);
             } else {
                 //SystemColor

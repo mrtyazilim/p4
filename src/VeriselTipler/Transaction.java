@@ -3,6 +3,15 @@ description (boş olabilir)
 transactionDate (tarih ve saat - istenilen biçimde tutulabilir)
 amount
 */
+/**
+ verinin dosyada sıralaması asgari olarak şu şekildedir
+
+ açıklama,zaman,tutar
+
+ avans çekildi|01.03.2024 14:23|-1750.50
+ AYRAÇ İSE DATA_ROW_SEPERATOR daki gibi olmalıdır
+ Veriyi işleyen tipler de buna göre işlem yapmaldır. aksi takdirde karmaşa çıkar.
+*/
 
 package VeriselTipler;
 import java.time.LocalDate;

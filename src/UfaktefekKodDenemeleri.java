@@ -234,10 +234,20 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
 
 
     }
+static void seperatorDeneme(){
+    //deneme string, strin arraya otomatikman bulunecekse kod yükünden kurtuluruz
 
+    String[] rowsCells;
+    StringBuilder satirSB=new StringBuilder("a,gdfd,rtrtrt,z");
+    String metin1="a,gdfd,rtrtrt,z";
+    rowsCells=metin1.split(",");
+    System.out.println(rowsCells);
+    System.out.println(rowsCells[3]);
+}
     public static void main(String[] args) {
-      // zamani();
-        zamani2();
+      seperatorDeneme();
+        // zamani();
+        //zamani2();
 //        oku1();
         //veriEkleDene();
 //        dosyaOlustur();
