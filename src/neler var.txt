@@ -3,7 +3,7 @@ ekleme
 döngü
 yeni switch
 exception
-merkezi değerler
+merkezi değerler-domain constant
 recusive
 interface
 işlevine uygun sınıf ve klasör bölmwlwei
