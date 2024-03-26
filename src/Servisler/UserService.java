@@ -65,7 +65,7 @@ eğer nhepsi new new li olup çalışmasa hatay ıkendimde arardım.
             } else {
                 //SystemColor
                 System.out.println("giriş başarısız");
-
+                showUnSuccessedLoginAttemptMwnu();
             }
         }
 
