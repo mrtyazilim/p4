@@ -66,10 +66,13 @@ public class UserInterface {
         DataFileProcess.addData(DOMAIN_CONSTANT.USER_DATAPATH,userForAddingToData);
     }
     static void showUnSuccessedLoginAttemptMwnu(){
-        System.out.print("Yeniden seçim yapınız. " );
+        System.out.println("Yeniden seçim yapınız. " );
+        System.out.println("1 :Yeniden dene." ); System.out.println("Kayıt ol." );
         choice=choiceScanner.nextLine().charAt(0);
         switch (choice){
-            case 1->{}
+            case 1->{askUserLogin();}
+            case 2->{userSingUp();}
+            default ->{showUnSuccessedLoginAttemptMwnu();}
         }
     }
     static void userNameAndPassword(){}
