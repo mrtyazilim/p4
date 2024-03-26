@@ -7,7 +7,7 @@ merkezi değerler
 recusive
 interface
 işlevine uygun sınıf ve klasör bölmwlwei
-polymorphism
+polymorphism(taslak)
 javadoc
 --
 github ile ilgili sorunlar ve başka sorunlar var.
