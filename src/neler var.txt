@@ -10,5 +10,6 @@ işlevine uygun sınıf ve klasör bölmwlwei
 polymorphism(taslak)
 javadoc
 bilinmezlik-verisel işlemler ve ve formal parametrelilik
+menulerde hatalı girdiye direnç
 --
 github ile ilgili sorunlar ve başka sorunlar var.
