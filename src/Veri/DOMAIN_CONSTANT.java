@@ -7,7 +7,7 @@ package Veri;
 
 //burası nesne oluşturmak amaçlı olmadığı için abstact sınıf mı olmalı?.
 
-
+//başkabir bilgisayara (maviye) githubdan alıp repo sahibi olduğumuzu belirtme
 public  class DOMAIN_CONSTANT {
     //"Veri/Nesne/denememetin.txt";
     //M1K1Proje1/untitled/src/Veri/Nesne
