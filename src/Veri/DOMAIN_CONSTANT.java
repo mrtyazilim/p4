@@ -17,7 +17,7 @@ public  class DOMAIN_CONSTANT {
     public static final String USER_DATAPATH="src/Veri/Nesne/User.txt";
     public static final String USERDATAPATH2="src/Veri/Nesne/denememetin";
     public final static String TRANSACTION_DATAPATH="src/Veri/Olaylar/";
-    public final static String DATA_ROW_SEPERATOR="|";
+    public final static char DATA_ROW_SEPERATOR='|';
 
     //İLETİŞİM SIK KULLANILANLAR;
     // hata mesajları

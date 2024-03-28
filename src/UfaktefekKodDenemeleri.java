@@ -242,7 +242,7 @@ static void seperatorDeneme(){
     String metin1="a,gdfd,rtrtrt,z";
     rowsCells=metin1.split(",");
     System.out.println(rowsCells);
-    System.out.println(rowsCells[3]);
+    System.out.println(rowsCells[2]);
 }
     public static void main(String[] args) {
       seperatorDeneme();
