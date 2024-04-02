@@ -12,7 +12,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class TransactionService {
+public class TransactionService implements Dataable {
+
+    public static void readTransactionFFileByTC_v2(String TC){
+        //Dataprocess.Getdada
+    }
+    public static void readTransactionFFileByUser(Dataable dataable){
+
+    }
     static public void readTransactionFFileByTC(String TC) {
         /* parametre kullanmak; bilinmezlinği , başkasını bilmeden kodlama yapılabilirliği artırıyor sanki. başkasını bilmiyor
         kendini biliyor. kendisini(formal parametresini bilmesi) kötünün iyisi bi hal. ilim ilim bilmektir, ilim kendin bilmektir.
